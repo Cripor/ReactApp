@@ -1,5 +1,7 @@
 import image1 from '../assets/images/image1.jpg';
+import Adding from './ClickAddSub'
 
+let value
 function ItemListContainer() {
     return(
         <div className="container border border-info">
@@ -7,7 +9,7 @@ function ItemListContainer() {
             <div className='mt-5 mb-5' id='item1'>
                 <img className='w-25' src={image1}/>
                 <p>Placa de video GeForce GTX 1050</p>
-                <button>Añadir al carrito</button>
+                <Adding/>
             </div>
         </div>
     )

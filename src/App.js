@@ -8,7 +8,8 @@ function App() {
     <div className="App">
       <header className="bg-dark text-white d-flex flex-column gap-5 justify-content-start">
         <Header/>
-        <NavBar/>
+        <NavBar value="">
+        </NavBar>
       </header>
       <main className='mt-5'>
         <ItemListContainer/>
