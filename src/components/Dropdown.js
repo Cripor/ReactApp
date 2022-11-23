@@ -1,4 +1,5 @@
 import Dropdown from 'react-bootstrap/Dropdown';
+import { Link } from 'react-router-dom';
 
 function Dropdownuse() {
     return (
@@ -7,9 +8,22 @@ function Dropdownuse() {
             Catálogo
         </Dropdown.Toggle>
         <Dropdown.Menu>
-            <Dropdown.Item href="#item1">Placas de video</Dropdown.Item>
-            <Dropdown.Item href="project_reactjs\public\index.html">Perifericos</Dropdown.Item>
-            <Dropdown.Item href="project_reactjs\public\index.html">Otros</Dropdown.Item>
+            <Dropdown.Item>
+                <Link to='/category/placas' className='text-decoration-none text-black'>
+                    Placas de video
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+                <Link to='/category/perifericos' className='text-decoration-none text-black'>
+                    Perifericos
+                </Link>
+            </Dropdown.Item>
+            <Dropdown.Item>
+                <Link to='/' className='text-decoration-none text-black'>
+                    Otros
+                </Link>
+            </Dropdown.Item>
+            
         </Dropdown.Menu>
     </Dropdown>
     );

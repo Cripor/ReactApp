@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
+import CartWidget from './CartWidget';
 
 function Adding() {
     let value = 0;
@@ -12,6 +13,7 @@ function Adding() {
     function clickToAdd(){
         setClick(click < stock ? click + 1 : click);
         value = click
+        {<CartWidget onCart={click}/>}
     }
     function clickToSub(){
         setClick(click > 0 ? click - 1 : click);

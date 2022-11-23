@@ -1,20 +1,16 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Header from './components/header';
-import ItemListContainer from './components/main';
+import ItemListContainer from './components/ItemListContainer';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import { Layout } from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-      <header className="bg-dark text-white d-flex flex-column gap-5 justify-content-start">
-        <Header/>
-        <NavBar value="">
-        </NavBar>
-      </header>
-      <main className='mt-5'>
-        <ItemListContainer/>
-      </main>
-    </div>
+      <Layout>
+        <main className='mt-5'>
+          <ItemDetailContainer/>
+          <ItemListContainer/>
+        </main>
+      </Layout>
   );
 }
 
