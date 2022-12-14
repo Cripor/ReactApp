@@ -41,6 +41,7 @@
 /*   border: 1px solid black; */
   border-radius: 5px;
   width: 280px;
+  height:60vh;
   box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
 -webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
 -moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
@@ -62,3 +63,28 @@
   width: 35px;
   height: 35px;
 }
+
+.countWidget{
+  width: 30px;
+}
+
+.cartWidgetCounter{
+  text-decoration: none;
+}
+
+.bgLayout{
+  background-image: url("./assets/images/kisspng-pac-man-world-3-ms-pac-man-pac-man-games-pac-man-transparent-png-5a797bceef3227.5142749115179109909798.png");
+  background-position: -15%;
+  background-size: 30%;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+}
+
+.itemsHeight{
+  height: 50vh
+}
+
+/* .detailHeight{
+  height: 60vh;
+  margin: 100px 0px 100px 0px
+} */

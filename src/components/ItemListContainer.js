@@ -73,7 +73,7 @@ function ItemListContainer() {
     }, [category]); */
 
     if ( products.length === 0 ) {
-        return <div className="d-flex justify-content-center align-items-center mt-5">
+        return <div className="d-flex justify-content-center align-items-center mt-5 min-vh-100">
             <TailSpin
                 height="80"
                 width="80"
@@ -89,7 +89,7 @@ function ItemListContainer() {
 
     return(
         <div>
-            <h2>Catalogo</h2>
+            <h2 className="mt-3">Catalogo:</h2>
             <ItemList products={products}/>
         </div>
     )

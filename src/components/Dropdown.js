@@ -20,7 +20,7 @@ function Dropdownuse() {
             </Dropdown.Item>
             <Dropdown.Item>
                 <Link to='/' className='text-decoration-none text-black'>
-                    Otros
+                    Ver Todo
                 </Link>
             </Dropdown.Item>
             

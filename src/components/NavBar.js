@@ -1,7 +1,6 @@
 import Dropdownuse from './Dropdown';
-import CartWidget from './CartWidget';
+import { CartWidget } from './CartWidget';
 import { Link } from 'react-router-dom';
-import { useState } from 'react';
 
 function NavBar() {
     return (
@@ -15,7 +14,7 @@ function NavBar() {
                 <li className='text-white'>
                     <Dropdownuse/>
                 </li>
-                <Link to="/item/1" className="text-white text-decoration-none">
+                <Link to="/item/4dY9h69cZLbx0mEdUWox" className="text-white text-decoration-none">
                     <li>
                         Item
                     </li>
