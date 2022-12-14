@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react';
 import ItemDetail from "./ItemDetail";
 import { useParams } from "react-router-dom";
 import { TailSpin } from 'react-loader-spinner'
-import { collection, getDocs, getFirestore, query, where } from 'firebase/firestore';
-import { productos } from '../mocks/ItemMock';
+import { collection, getDocs, getFirestore } from 'firebase/firestore';
 
 /* const db = getFirestore();
 const itemsCollection = collection(db, "productos");
