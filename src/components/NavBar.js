@@ -1,6 +1,7 @@
 import Dropdownuse from './Dropdown';
 import CartWidget from './CartWidget';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
 function NavBar() {
     return (
@@ -19,7 +20,9 @@ function NavBar() {
                         Item
                     </li>
                 </Link>
-                <CartWidget/>
+                <Link to="/cart/1" className="text-decoration-none">
+                    <CartWidget/>
+                </Link>
             </ul>
         </navbar>
     )

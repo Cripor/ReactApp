@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.itemList{
+/*   border: 1px solid black; */
+  border-radius: 5px;
+  width: 280px;
+  box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+-webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+-moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+}
+
+.addToCartButton{
+    border: 1px solid black;
+    box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+    -webkit-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: -1px 1px 6px 0px rgba(0,0,0,0.54);
+}
+
+.no-border{
+  border: 0;
+  width: 25px;
+}
+
+.remove{
+  width: 35px;
+  height: 35px;
+}
